@@ -21,6 +21,9 @@ while num != 0:
   total = total + num
   times = times + 1
   num = int(input("Enter a number or enter 0 to stop: "))
-total = total/times  
-print("Average:", total)
+if times == 0:
+  print("Average:", total)
+else: 
+  total = total/times  
+  print("Average:", total)
 #done

@@ -11,7 +11,7 @@ Hunter
 Hunter
 
 '''
-num = int(input("Enter a number: "))
+num = int(input("Times to print: "))
 times = 1
 while times <= num: 
   print("Hunter")

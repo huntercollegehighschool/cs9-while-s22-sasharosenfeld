@@ -14,8 +14,14 @@ Product: 60
 '''
 num = int(input("Enter a number or enter 0 to stop: "))
 total = 1
+times = 0
 while num != 0:
   total = total * num
+  times = times + 1
   num = int(input("Enter a number or enter 0 to stop: "))
-print("Product:", total)
+if times == 0:
+  total = 0
+  print("Product:", total)
+else: 
+  print("Product:", total)
 #done
